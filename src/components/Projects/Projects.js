@@ -36,14 +36,14 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Rencia Rent App"
+              description="A rent app that I am designing to revolutionize the real estate industry in Ghana. The app will allow users to rent properties, pay rent, and request maintenance services. The app will also allow property owners to list their properties, receive rent payments, and manage their properties. There's no landlord interaction whatsover."
+              ghLink="https://github.com/Pazil24/rencia-frontend"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -52,9 +52,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,7 +63,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
