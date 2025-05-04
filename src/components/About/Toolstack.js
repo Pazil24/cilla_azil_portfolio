@@ -5,6 +5,13 @@ import {
   SiPostman,
   SiSlack,
   SiVercel,
+  SiDocker,
+  SiKubernetes,
+  SiTerraform,
+  SiGithub,
+  SiGitlab,
+  SiJenkins,
+  SiRemix,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -21,6 +28,36 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJenkins />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <SiMetamask />
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <SiTruffle />
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <SiHardhat />
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRemix />
       </Col>
     </Row>
   );

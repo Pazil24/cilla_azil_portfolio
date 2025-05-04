@@ -7,9 +7,17 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiDocker,
+  DiLinux,
 } from "react-icons/di";
 import {
-  SiPostgresql
+  SiPostgresql,
+  SiEthereum,
+  SiPolkadot,
+  SiKubernetes,
+  SiTerraform,
+  SiGithub,
+  SiBlockchaindotcom,
 } from "react-icons/si";
 
 function Techstack() {
@@ -35,6 +43,30 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiEthereum />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPolkadot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBlockchaindotcom />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
       </Col>
     </Row>
   );

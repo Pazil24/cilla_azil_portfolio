@@ -11,25 +11,34 @@ function AboutCard() {
             Hi f.r.i.e.n.d.s, I am <span className="purple">Priscilla Azilafu </span>
             from <span className="purple"> Accra.</span>
             <br />
-            I am currently seeking internships to gain more practical experience.
+            I am a DevSecOps trainee with Cybersafe Foundation, specializing in cybersecurity and secure software development.
+            <br />
+            I have completed comprehensive training in DevSecOps, including Secure SDLC, container security, blockchain security, and secure coding practices.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I'm actively involved in the Web3 space, participating in programs like Women in Ethereum Protocol and Dev3pack.
+            I'm currently contributing to OnlyDust and Celo, and I participated in the ETH Accra hackathon 2024.
+            <br />
+            <br />
+            My expertise spans across:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Cycling
+              <ImPointRight /> DevSecOps and Cybersecurity
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Blockchain Development (DeFi, ZK Proofs, Polkadot, Ethereum)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring the Digital World
+              <ImPointRight /> Secure Software Development
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Open Source Contributions
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Coding to transform!"{" "}
+            "Building secure and innovative solutions for the future!"{" "}
           </p>
           <footer className="blockquote-footer">Cilla</footer>
         </blockquote>
