@@ -11,7 +11,7 @@ function AboutCard() {
             Hi f.r.i.e.n.d.s, I am <span className="purple">Priscilla Azilafu </span>
             from <span className="purple"> Accra.</span>
             <br />
-            I am a DevSecOps trainee with Cybersafe Foundation, specializing in cybersecurity and secure software development.
+            I am a DevSecOps Engineer graduate from Cybersafe Foundation, specialized in cybersecurity and secure software development.
             <br />
             I have completed comprehensive training in DevSecOps, including Secure SDLC, container security, blockchain security, and secure coding practices.
             <br />
